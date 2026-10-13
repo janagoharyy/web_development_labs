@@ -1,0 +1,117 @@
+.block{
+    background-color:black;
+    width: 100%;
+    padding: 20px;
+}
+.block h2{
+
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.block p{
+    color:white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.box{
+    background-color:white;
+    width: 100%;
+    padding: 20px;
+}
+.box h2{
+
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.box p{
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.Projects{
+    background-color:white;
+
+}
+
+.Projects h2{
+
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 25spx;
+    text-align: center;
+}
+.Projects p{
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: row; /*ashan ybou gamb baad*/
+    justify-content: space-evenly;
+    
+}
+.ContactMe h2{
+    color:black;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+.flex2{
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between; /*distributes the items across the container's available height*/
+    align-items:center;
+    gap:15px; /*ashan yb3do aan baad*/
+
+}
+.flex2 #Yourname{  /**use # for id and . for class**/
+    font-size:15;
+    width:400px;
+    padding:10px;
+    height:20px;
+    border-radius:5px;
+    border:1px solid gray;
+    box-sizing: border-box;
+}
+.flex2 #Youremail{
+    font-size:15;
+    width:400px;
+    padding:10px;
+    height:20px;
+    border-radius:5px;
+    border:1px solid gray;
+    box-sizing: border-box;
+}
+.flex2 #Yourmssg{
+    font-size:15;
+    width:400px;
+    padding:10px;
+    height:60px;
+    border-radius:5px; /*for round corners*/
+    border:1px solid gray;
+    box-sizing: border-box;
+
+}
+
+
+.flex2 button{
+    background-color: black;
+    color: white;
+    font-size:20;
+    font-family: Arial, sans-serif;
+    width:400px;
+    border-radius:5px;
+    padding:10px; /*padding is the space inside an element, between its content and its border.*/
+    box-sizing: border-box;
+}
